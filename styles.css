@@ -1,3 +1,7 @@
+.navigation {
+    position: relative;
+}
+
 .navigation ul {
     list-style-type: none;
     background-color: #aaaaaa;
@@ -12,8 +16,55 @@
    margin: 0;
 }
 
-#position .northwest {
+.introduction {
+    position: relative;
+    border-bottom-style: solid;
+}
+
+#position {
     font-family: 'coiny';
     font-size: 36px;
+}
+
+.main {
     position: relative;
+    border-bottom-style: solid;
+}
+
+#position .northwest {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    border: solid;
+}
+
+#position .northeast {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    border: solid;
+    text-align: right;
+}
+
+#position .center {
+    position: relative;
+    border: solid;
+    text-align: center;
+}
+
+#position .southwest {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    border: solid;
+}
+
+#position .southeast {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    border: solid;
+    text-align: right;
 }
