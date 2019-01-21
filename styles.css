@@ -31,17 +31,14 @@
     border-bottom-style: solid;
 }
 
-#position .northwest {
-    position: relative;
-    top: 0;
-    left: 0;
+.northwest {
+    position: absolute;
     width: 50%;
     border: solid;
 }
 
 #position .northeast {
     position: absolute;
-    top: 0;
     right: 0;
     width: 50%;
     border: solid;
@@ -49,20 +46,21 @@
 }
 
 #position .center {
-    position: relative;
+    position: absolute;
     border: solid;
     text-align: center;
 }
 
 #position .southwest {
     position: absolute;
-    left: 0;
+    bottom: 0;
     width: 50%;
     border: solid;
 }
 
 #position .southeast {
     position: absolute;
+    bottom: 0;
     right: 0;
     width: 50%;
     border: solid;
